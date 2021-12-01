@@ -104,3 +104,4 @@ fabric.properties
 /.gradle/
 /day-1/build/
 /utils/build/
+build/
