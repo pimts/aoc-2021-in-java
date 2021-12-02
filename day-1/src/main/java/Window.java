@@ -16,7 +16,7 @@ public class Window {
 
     @Override
     public String toString() {
-        return "SlidingWindow{" +
+        return "Window{" +
                 "part1=" + part1 +
                 ", part2=" + part2 +
                 ", part3=" + part3 +
