@@ -1,3 +1,5 @@
+package aoc.pimts;
+
 public class Window {
 
     private final int part1;
@@ -16,7 +18,7 @@ public class Window {
 
     @Override
     public String toString() {
-        return "Window{" +
+        return "aoc.pimts.Window{" +
                 "part1=" + part1 +
                 ", part2=" + part2 +
                 ", part3=" + part3 +
