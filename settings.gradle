@@ -1,4 +1,5 @@
 rootProject.name = 'aoc-2021-in-java'
 include 'day-1'
 include 'utils'
+include 'day-2'
 
