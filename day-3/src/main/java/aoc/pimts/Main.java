@@ -1,4 +1,4 @@
-import aoc.pimts.FileUtils;
+package aoc.pimts;
 
 import java.io.IOException;
 import java.util.ArrayList;
