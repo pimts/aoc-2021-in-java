@@ -24,7 +24,7 @@ public class SchoolOfFish {
 
     public void grow() {
         Map<Integer, Long> newBucket = createNewBucket();
-        // Advance all fishes from 8 to 1 by one day.
+        // Advance all fishes from remaining days 8 to 1 by one day.
         for (int i = LanternFish.DAYS_TO_GROW; i >= 1; i--) {
             Long current = fishBucket.get(i);
             newBucket.put(i-1, current);
