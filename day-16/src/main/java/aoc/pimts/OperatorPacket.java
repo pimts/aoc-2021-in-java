@@ -12,11 +12,19 @@ public class OperatorPacket extends Packet {
         this.subPackets = new ArrayList<>();
     }
 
+    public void setValue(long value) {
+        this.value = value;
+    }
+
     public void setLength(int length) {
         this.length = length;
     }
 
     public void addSubPacket(Packet packet) {
         subPackets.add(packet);
+    }
+
+    public List<Packet> getSubPackets() {
+        return subPackets;
     }
 }
